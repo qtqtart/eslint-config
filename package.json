@@ -1,13 +1,23 @@
 {
   "name": "@qtqtart/eslint-config",
-  "type": "module",
-  "version": "1.0.2",
+  "description": "eslint config",
+  "license": "MIT",
+  "version": "1.0.3",
   "private": false,
-  "publishConfig": {
-    "access": "public"
-  },
+  "type": "module",
+  "keywords": [
+    "eslint"
+  ],
   "exports": {
     ".": "./src/define-base-config.js"
+  },
+  "author": {
+    "name": "Merkulov Artem",
+    "url": "https://github.com/qtqtart"
+  },
+  "homepage": "https://github.com/qtqtart/eslint-config",
+  "repository": {
+    "url": "https://github.com/qtqtart/eslint-config"
   },
   "scripts": {
     "format": "prettier --write .",
@@ -15,13 +25,13 @@
     "release": "release-it"
   },
   "peerDependencies": {
-    "eslint": "9.34.0"
+    "eslint": "^9"
   },
   "dependencies": {
     "@antfu/eslint-config": "5.2.2",
     "@eslint-react/eslint-plugin": "1.53.0",
     "eslint": "9.34.0",
-    "eslint-plugin-format": "^1.0.1",
+    "eslint-plugin-format": "1.0.1",
     "eslint-plugin-i18next": "6.1.3",
     "eslint-plugin-jest-dom": "5.5.0",
     "eslint-plugin-jsx-a11y": "6.10.2",
@@ -34,5 +44,8 @@
   "devDependencies": {
     "@qtqtart/prettier-config": "1.0.0",
     "release-it": "19.0.4"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
