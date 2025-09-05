@@ -2,7 +2,7 @@
   "name": "@qtqtart/eslint-config",
   "description": "eslint config",
   "license": "MIT",
-  "version": "1.0.3",
+  "version": "1.0.2",
   "private": false,
   "type": "module",
   "keywords": [
